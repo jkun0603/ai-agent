@@ -1,0 +1,38 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./.venv/Scripts/python.exe --version)",
+      "Bash(./.venv/Scripts/python.exe -m pip list)",
+      "Bash(ollama --version)",
+      "Bash(ollama list *)",
+      "Bash(curl -s http://localhost:11434/api/tags)",
+      "Bash(./.venv/Scripts/python.exe -m pip install -r requirements.txt)",
+      "Bash(./.venv/Scripts/python.exe -c ' *)",
+      "Bash(winget --version)",
+      "Bash(winget install *)",
+      "Bash(tasklist)",
+      "Bash(curl -sIL --max-time 12 \"https://ollama.com/download/OllamaSetup.exe\" -o /dev/null -w \"最终URL: %{url_effective}\\\\nHTTP状态: %{http_code}\\\\n内容长度: %{size_download} 字节\\\\n连接耗时: %{time_connect}s\\\\n\")",
+      "Read(//d/aaa-全栈学习/ai 大模型应用/**)",
+      "Bash(certutil -hashfile C:/Users/23563/AppData/Local/Temp/WinGet/Ollama.Ollama.0.33.3/DO1707.tmp SHA256)",
+      "Bash(taskkill //F //IM winget.exe)",
+      "Bash(powershell *)",
+      "Bash(curl -sL --max-time 15 -r 0-5242879 __TRACKED_VAR__https://github.com/ollama/ollama/releases/download/v0.33.3/OllamaSetup.exe -o /dev/null -w 'HTTP:%{http_code} 速度:%{speed_download} B/s 下到:%{size_download}字节\\\\n')",
+      "Bash(curl -sIL --max-time 12 \"https://github.com/ollama/ollama/releases/download/v0.33.3/OllamaSetup.exe\")",
+      "Bash(cat)",
+      "Bash(bash /tmp/resume.sh)",
+      "Bash(sc query *)",
+      "Bash(bash /tmp/dl.sh)",
+      "Bash(curl -sL --max-time 60 -o \"C:/Users/23563/AppData/Local/Temp/handle64.exe\" \"https://live.sysinternals.com/handle64.exe\")",
+      "Bash(./handle64.exe -accepteula -nobanner DO1707)",
+      "Bash(curl -sL --max-time 20 \"https://registry.npmmirror.com/-/binary/ollama/\")",
+      "Bash(curl -sIL --max-time 20 -r 0-1023 \"https://registry.npmmirror.com/-/binary/ollama/v0.33.3/OllamaSetup.exe\" -o /dev/null -w \"HTTP:%{http_code} 长度:%{size_download}\\\\n\")",
+      "Bash(curl -sL --max-time 25 -o /dev/null -w 'HTTP:%{http_code} 实下:%{size_download}字节 平均:%{speed_download}B/s\\\\n' https://github.com/ollama/ollama/releases/download/v0.33.3/OllamaSetup.exe)",
+      "Bash(curl -sL --max-time 30 -o /dev/null -w 'HTTP:%{http_code} 实下:%{size_download}字节 平均:%{speed_download}B/s\\\\n' https://ghfast.top/https://github.com/ollama/ollama/releases/download/v0.33.3/OllamaSetup.exe)",
+      "Bash(curl -sL --max-time 20 -o /dev/null -w 'HTTP:%{http_code} 实下:%{size_download}字节 平均:%{speed_download}B/s\\\\n' __TRACKED_VAR__https://github.com/ollama/ollama/releases/download/v0.33.3/OllamaSetup.exe)",
+      "Bash(./.venv/Scripts/python.exe lessons/config.py)",
+      "Bash(./.venv/Scripts/python.exe lessons/lesson_01_first_call.py)",
+      "Bash(./.venv/Scripts/python.exe lessons/lesson_05_prompt.py)",
+      "Bash(git check-ignore *)"
+    ]
+  }
+}
