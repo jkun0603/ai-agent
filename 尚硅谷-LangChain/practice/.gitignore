@@ -1,0 +1,19 @@
+# 核心：阻止上传.env密钥文件
+.env
+
+# Python缓存文件
+__pycache__/
+*.py[cod]
+
+# Jupyter相关
+.ipynb_checkpoints/
+
+# 虚拟环境文件夹
+venv/
+
+# PyCharm配置文件夹
+.idea/
+
+# 系统垃圾文件
+Thumbs.db
+.DS_Store
